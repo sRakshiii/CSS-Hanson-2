@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background-image:url(./image.jpg);
+    border: 10px ridge greenyellow ;
+}
+
+.onebox{
+    display: flex;
+    color: aliceblue;   
+}
+
+.one{
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px 20px 50px ;
+}
+
+
+.one2{
+   
+    position: absolute; 
+    top: 25px;   
+    left: 220px;
+    width: 400px;
+    border-radius: 30px;
+   
+}
+.one3{
+    position: absolute; 
+    top: 10px;   
+    left: 700px;
+}
+
+.main{
+    display: flex;
+}
+
+.offer{
+    background-color:aquamarine;
+    border: 5px solid gray;
+    border-radius: 500px;
+    text-align: center;
+    margin: 100px 50px 30px 50px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+}
+
+.form{
+    color: indianred;
+    border: 5px dashed red;
+    background-color: white;
+    margin: 50px 50px 30px 650px;
+    width: 300px;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 40px;
+    color: aliceblue;   
+}
+.menu1{
+    border: 6px solid red;
+    background-color: black;
+    border-radius: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 100px 20px 50px ;
+}
+
+.boxM{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items:center;
+    color: darkblue;
+    
+}
+
+.box{
+    background-color:aqua;
+    border: 5px solid green;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 20px 10px 50px 60px;
+}
+
